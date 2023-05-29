@@ -5,14 +5,12 @@ class Solution {
         char stChar;
         char eChar;
         while(st < e)  {
-                 
             stChar = s.charAt(st);
             eChar = s.charAt(e);
             if(!Character.isLetterOrDigit(stChar)){
                 st++;
             }
-            
-             else if(!Character.isLetterOrDigit(eChar)){
+            else if(!Character.isLetterOrDigit(eChar)){
                 e--;
             }
             else if(Character.toLowerCase(stChar) != Character.toLowerCase(eChar)){
