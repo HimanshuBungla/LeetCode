@@ -17,7 +17,7 @@ class Solution {
             return (int) (-rev);
         }
         else{
-            return (int)(rev);
+            return (int) (rev);
         }
     }
 }
