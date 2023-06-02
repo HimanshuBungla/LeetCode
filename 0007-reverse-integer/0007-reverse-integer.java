@@ -14,10 +14,10 @@ class Solution {
             return 0;
         }
         if(n){
-            return (int) (-rev);
+            return (int)(-rev);
         }
         else{
-            return (int) (rev);
+            return (int)(rev);
         }
     }
 }
