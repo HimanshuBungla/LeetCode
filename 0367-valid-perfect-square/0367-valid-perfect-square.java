@@ -1,5 +1,8 @@
 public class Solution {
     public boolean isPerfectSquare(int num) {
+        if (num < 0) {
+            return false;
+        }
         for (int i = 0; i * i >= 0 && i * i <= num; i ++) {
             if (i * i == num) {
                 return true;
