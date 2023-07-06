@@ -4,7 +4,7 @@ class Solution {
         for(int i=0;i<nums.length;i++){
             int rightsum =0;
             leftsum = leftsum+nums[i];
-            for(int j=i;j<nums.length;j++){
+            for(int j=nums.length-1;j>=i;j--){
                 rightsum+= nums[j];
             }
             if(leftsum==rightsum){
