@@ -1,17 +1,10 @@
 class Solution {
-    public int gcd(int a, int b) {
-        if (a > b) {
-            int temp = a;
-            a = b;
-            b = temp;
-        }
-        if (b % a == 0)
-            return a;
-        return gcd(a, b % a);
-    }
     public int findGCD(int[] nums) {
-        Arrays.sort(nums);
-        int minNum = nums[0], maxNum = nums[nums.length - 1];
-        return gcd(minNum, maxNum);
-    }
+            Arrays.sort(nums);
+            return getGcd(nums[0], nums[nums.length - 1]);
+        }
+
+        int getGcd(int a, int b) {
+            return b == 0 ? a : getGcd(b, a % b);
+        }
 }
