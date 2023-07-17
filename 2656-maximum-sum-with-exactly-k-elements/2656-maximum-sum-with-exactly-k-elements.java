@@ -1,9 +1,9 @@
 class Solution {
     public int maximizeSum(int[] nums, int k) {
-        int x = 0;
-        for (int v=0;v<nums.length;v++) {
-            x = Math.max(x, nums[v]);
+        int a = 0;
+        for (int i=0;i<nums.length;i++) {
+            a = Math.max(a, nums[i]);
         }
-        return k * x + k * (k - 1) / 2;
+        return k * a + k * (k - 1) / 2;
     }
 }
