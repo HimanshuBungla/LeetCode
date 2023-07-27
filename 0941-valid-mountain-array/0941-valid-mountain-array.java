@@ -1,21 +1,20 @@
 class Solution {
-    public boolean validMountainArray(int[] A) {
-    int N = A.length;
-    int i = 0;
-
-    // walk up
-    while (i + 1 < N && A[i] < A[i + 1])
-      i++;
-
-    // peak can't be first or last
-    if (i == 0 || i == N - 1)
-      return false;
-
-    // walk down
-    while (i + 1 < N && A[i] > A[i + 1])
-      i++;
-
-    return i == N - 1;
-
-  }
+    public boolean validMountainArray(int[] arr) {
+        if(arr.length<3){
+            return false;
+        }
+        int s = 0;
+        int e = arr.length;
+        while (s + 1 < e && arr[s] < arr[s + 1]){
+            s++;
+        }
+        if(s==0||s==e-1){
+            return false;
+        }
+        while (s + 1 < e && arr[s] > arr[s + 1]){
+            s++;
+        }
+        
+        return s==e-1;
+    }
 }
