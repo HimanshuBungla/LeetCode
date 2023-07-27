@@ -8,10 +8,6 @@ class Solution {
         while (s + 1 < e && arr[s] < arr[s + 1]){
             s++;
         }
-        int maxi = Arrays.stream(arr).max().getAsInt();
-        if(arr[s]!=maxi){
-            return false;
-        }
         if(s==0||s==e-1){
             return false;
         }
