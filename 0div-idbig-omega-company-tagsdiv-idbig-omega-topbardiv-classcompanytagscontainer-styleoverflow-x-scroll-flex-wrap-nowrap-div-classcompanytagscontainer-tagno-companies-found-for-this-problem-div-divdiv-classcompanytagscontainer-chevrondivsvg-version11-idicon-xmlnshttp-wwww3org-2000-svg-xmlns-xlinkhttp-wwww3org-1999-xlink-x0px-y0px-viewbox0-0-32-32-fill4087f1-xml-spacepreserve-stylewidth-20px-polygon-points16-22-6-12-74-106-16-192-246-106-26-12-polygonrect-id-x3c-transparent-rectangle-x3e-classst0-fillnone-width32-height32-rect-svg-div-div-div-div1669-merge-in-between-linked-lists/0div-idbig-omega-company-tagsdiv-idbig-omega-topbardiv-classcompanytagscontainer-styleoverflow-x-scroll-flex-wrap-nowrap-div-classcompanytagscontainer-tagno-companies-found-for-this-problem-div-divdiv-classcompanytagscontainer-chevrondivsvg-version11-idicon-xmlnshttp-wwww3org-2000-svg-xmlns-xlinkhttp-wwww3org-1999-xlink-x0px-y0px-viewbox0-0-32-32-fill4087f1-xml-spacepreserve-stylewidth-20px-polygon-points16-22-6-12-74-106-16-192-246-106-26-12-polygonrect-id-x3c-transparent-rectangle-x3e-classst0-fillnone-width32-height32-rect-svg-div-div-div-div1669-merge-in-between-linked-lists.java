@@ -31,6 +31,8 @@ class Solution {
         }
         int countb = counta;
         ListNode head2 = head1;
+        System.out.println("cb "+countb);
+        System.out.println(head2.val);
         while(countb<=b){
             countb++;
             head2 = head2.next ;
