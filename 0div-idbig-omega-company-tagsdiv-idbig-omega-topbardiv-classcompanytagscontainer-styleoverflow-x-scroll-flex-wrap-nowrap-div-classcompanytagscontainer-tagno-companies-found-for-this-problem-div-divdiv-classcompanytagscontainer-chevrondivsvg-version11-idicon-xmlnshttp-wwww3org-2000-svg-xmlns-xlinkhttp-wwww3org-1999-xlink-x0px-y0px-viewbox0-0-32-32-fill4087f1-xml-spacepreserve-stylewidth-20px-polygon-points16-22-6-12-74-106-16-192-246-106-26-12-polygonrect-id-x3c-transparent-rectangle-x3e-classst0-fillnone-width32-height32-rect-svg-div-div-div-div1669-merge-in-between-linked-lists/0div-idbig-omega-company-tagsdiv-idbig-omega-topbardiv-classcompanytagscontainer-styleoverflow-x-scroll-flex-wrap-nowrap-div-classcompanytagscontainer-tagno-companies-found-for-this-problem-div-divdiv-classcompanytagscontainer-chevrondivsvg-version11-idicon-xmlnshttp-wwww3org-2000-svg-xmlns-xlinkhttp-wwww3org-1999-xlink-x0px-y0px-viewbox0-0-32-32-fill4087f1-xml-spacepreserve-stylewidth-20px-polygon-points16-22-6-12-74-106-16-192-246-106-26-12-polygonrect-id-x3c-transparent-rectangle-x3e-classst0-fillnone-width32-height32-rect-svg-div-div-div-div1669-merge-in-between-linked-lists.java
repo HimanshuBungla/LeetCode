@@ -10,7 +10,7 @@
  */
 class Solution {
     public ListNode mergeInBetween(ListNode list1, int a, int b, ListNode list2) {
-        int counta = 0;
+        int counta = 1;
         
         
         if(list1 == null && list2 == null){
@@ -25,12 +25,12 @@ class Solution {
         }
         
         ListNode head1 = list1;
-        while(counta<a-1){
+        while(counta<a){
             counta++;
             head1 = head1.next;
         }
-        int countb = 1;
-        ListNode head2 = list1;
+        int countb = counta;
+        ListNode head2 = head1;
         while(countb<=b){
             countb++;
             head2 = head2.next ;
