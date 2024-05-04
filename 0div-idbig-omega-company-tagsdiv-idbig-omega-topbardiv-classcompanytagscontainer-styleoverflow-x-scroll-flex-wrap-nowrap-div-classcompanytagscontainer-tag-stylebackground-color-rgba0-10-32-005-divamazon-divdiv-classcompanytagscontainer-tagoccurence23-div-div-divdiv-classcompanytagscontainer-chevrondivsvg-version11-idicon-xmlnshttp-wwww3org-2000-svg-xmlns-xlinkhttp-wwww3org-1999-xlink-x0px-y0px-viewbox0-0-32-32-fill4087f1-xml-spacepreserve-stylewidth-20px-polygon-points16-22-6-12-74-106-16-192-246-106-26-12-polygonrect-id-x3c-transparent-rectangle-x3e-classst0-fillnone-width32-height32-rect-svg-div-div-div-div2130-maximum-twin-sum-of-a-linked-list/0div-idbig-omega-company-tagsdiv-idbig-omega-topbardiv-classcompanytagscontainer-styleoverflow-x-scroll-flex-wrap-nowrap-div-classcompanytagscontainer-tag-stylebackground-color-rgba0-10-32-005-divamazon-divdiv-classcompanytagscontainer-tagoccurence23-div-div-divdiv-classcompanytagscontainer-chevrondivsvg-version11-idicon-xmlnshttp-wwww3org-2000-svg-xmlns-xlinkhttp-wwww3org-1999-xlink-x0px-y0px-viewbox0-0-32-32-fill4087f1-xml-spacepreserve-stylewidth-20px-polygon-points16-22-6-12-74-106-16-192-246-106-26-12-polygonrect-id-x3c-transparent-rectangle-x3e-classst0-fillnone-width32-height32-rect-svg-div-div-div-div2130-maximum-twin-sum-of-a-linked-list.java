@@ -29,7 +29,6 @@ class Solution {
             curr = curr.next;
         }
         arr[sz-1] = curr.val;
-        System.out.println(Arrays.toString(arr));
         int sum = 0;
         for(int i=0;i<sz/2;i++){
             int c = arr[i] + arr[sz-1-i];
