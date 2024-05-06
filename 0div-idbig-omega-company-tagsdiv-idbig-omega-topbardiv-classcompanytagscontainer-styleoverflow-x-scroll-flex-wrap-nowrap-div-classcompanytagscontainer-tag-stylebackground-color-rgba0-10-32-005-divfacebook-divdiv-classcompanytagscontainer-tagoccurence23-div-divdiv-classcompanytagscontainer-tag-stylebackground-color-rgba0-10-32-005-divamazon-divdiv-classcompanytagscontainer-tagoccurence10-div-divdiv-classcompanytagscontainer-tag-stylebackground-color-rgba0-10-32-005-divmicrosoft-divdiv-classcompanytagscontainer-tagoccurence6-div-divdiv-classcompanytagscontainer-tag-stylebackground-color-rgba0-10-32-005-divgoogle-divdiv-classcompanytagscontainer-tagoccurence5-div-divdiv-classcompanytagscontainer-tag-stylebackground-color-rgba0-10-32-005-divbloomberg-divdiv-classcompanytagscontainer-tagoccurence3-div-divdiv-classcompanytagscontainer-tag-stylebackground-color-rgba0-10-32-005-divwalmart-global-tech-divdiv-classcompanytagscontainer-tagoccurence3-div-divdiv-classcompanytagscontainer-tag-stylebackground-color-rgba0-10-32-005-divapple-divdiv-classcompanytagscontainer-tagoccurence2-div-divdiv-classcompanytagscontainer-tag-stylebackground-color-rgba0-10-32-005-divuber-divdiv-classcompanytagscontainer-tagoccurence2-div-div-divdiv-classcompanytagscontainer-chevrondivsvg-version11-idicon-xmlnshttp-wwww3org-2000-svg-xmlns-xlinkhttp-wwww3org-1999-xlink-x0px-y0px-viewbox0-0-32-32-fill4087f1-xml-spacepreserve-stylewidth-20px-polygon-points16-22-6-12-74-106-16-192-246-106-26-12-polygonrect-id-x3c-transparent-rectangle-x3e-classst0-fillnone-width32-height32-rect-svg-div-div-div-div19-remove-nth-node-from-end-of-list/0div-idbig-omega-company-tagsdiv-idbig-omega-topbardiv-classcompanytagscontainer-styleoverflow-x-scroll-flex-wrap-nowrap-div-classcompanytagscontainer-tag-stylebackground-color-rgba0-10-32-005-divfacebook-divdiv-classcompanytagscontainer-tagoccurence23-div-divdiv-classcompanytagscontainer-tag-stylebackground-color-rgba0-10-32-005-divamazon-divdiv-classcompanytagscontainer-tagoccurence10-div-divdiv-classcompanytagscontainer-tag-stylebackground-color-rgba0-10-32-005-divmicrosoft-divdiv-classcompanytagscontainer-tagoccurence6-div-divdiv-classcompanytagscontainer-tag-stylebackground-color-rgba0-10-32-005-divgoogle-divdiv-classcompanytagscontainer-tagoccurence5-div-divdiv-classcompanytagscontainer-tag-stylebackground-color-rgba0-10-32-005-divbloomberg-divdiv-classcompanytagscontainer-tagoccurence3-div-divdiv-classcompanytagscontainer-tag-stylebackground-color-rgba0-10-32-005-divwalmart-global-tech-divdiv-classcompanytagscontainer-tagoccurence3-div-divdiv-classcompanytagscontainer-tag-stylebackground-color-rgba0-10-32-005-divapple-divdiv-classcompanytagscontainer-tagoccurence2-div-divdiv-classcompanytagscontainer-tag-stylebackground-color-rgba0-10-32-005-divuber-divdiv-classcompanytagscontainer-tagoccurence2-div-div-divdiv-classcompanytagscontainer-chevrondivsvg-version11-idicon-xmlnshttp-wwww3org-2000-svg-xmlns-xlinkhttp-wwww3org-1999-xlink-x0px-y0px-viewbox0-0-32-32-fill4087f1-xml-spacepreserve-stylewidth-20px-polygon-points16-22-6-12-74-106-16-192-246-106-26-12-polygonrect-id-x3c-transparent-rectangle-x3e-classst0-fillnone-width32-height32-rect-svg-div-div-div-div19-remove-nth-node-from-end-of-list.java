@@ -24,8 +24,6 @@ class Solution {
             return head;
         }
         
-        System.out.println(sz);
-        
         if(head==null){
             return head;
         }
