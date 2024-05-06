@@ -10,6 +10,15 @@
  */
 class Solution {
     public ListNode mergeNodes(ListNode head) {
+        if(head==null){
+            return null;
+        }
+        if(head.val==0 && head.next==null){
+            return null;
+        }
+        if(head.next==null){
+            return head;
+        }
         ListNode dummy = new ListNode(1);
         ListNode tail = dummy;
         int sum=0;
