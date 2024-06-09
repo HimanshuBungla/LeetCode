@@ -9,24 +9,25 @@
  * }
  */
 class Solution {
-    List<Integer> arrList;
+
+    ArrayList<Integer> list = new ArrayList<>();
+    Random random = new Random();
     int length;
-    Random random;
     public Solution(ListNode head) {
-        this.arrList = new ArrayList<>();
-        for(; head != null ;){
-            arrList.add(head.val);
-            head = head.next;
+        ListNode temp = head;
+        while(temp!=null){
+            list.add(temp.val);
+            temp = temp.next;
         }
-        length = arrList.size();
-        this.random = new Random();
+        length = list.size();
     }
     
     public int getRandom() {
-        int num = random.nextInt(length);
-        return arrList.get(num);
+        int n = random.nextInt(length);
+        return list.get(n);
     }
 }
+
 /**
  * Your Solution object will be instantiated and called as such:
  * Solution obj = new Solution(head);
