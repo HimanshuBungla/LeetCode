@@ -6,7 +6,7 @@ class Solution(object):
         """
         start = 1
         end = len(arr) -2
-        while(start<end):
+        while(start<=end):
             mid = start + (end-start)/2
             if(arr[mid-1] < arr[mid] > arr[mid+1]):
                 return mid
@@ -14,4 +14,4 @@ class Solution(object):
                 start = mid+1
             else:
                 end = mid-1
-        return start
+        return -1
