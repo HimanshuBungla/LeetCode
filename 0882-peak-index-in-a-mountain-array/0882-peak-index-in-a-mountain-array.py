@@ -9,7 +9,6 @@ class Solution(object):
         end = len(arr) - 2
         while(start <= end):
             mid = start + (end-start)/2
-            print(arr[mid])
             if(arr[mid-1] < arr[mid] > arr[mid+1]):
                 return mid
             if(arr[mid-1] < arr[mid]):
