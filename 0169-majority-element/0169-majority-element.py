@@ -4,15 +4,13 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        nums.sort()
-        freq = 1
-        ans = nums[0]
-        for i in range(1,len(nums)):
-            if(ans==nums[i]):
-                freq +=1
+        freq = 0
+        ans = 0
+        for i in nums:
+            if(freq==0):
+                ans = i
+            if(ans==i):
+                freq+=1
             else:
-                freq=1
-                ans = nums[i]
-            if(freq > len(nums)/2):
-                return ans
+                freq-=1
         return ans
