@@ -13,4 +13,12 @@ class Solution(object):
                 freq+=1
             else:
                 freq-=1
-        return ans
+
+        count = 0
+        for i in nums:
+            if(i==ans):
+                count+=1
+        if(count>len(nums)/2):
+            return ans
+        else:
+            return -1
