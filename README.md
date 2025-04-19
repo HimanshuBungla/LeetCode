@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/HimanshuBungla/LeetCode/tree/master/0169-majority-element) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/HimanshuBungla/LeetCode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/HimanshuBungla/LeetCode/tree/master/0882-peak-index-in-a-mountain-array) |
+| [2699-count-the-number-of-fair-pairs](https://github.com/HimanshuBungla/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Two Pointers
 |  |
 | ------- |
@@ -21,11 +22,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/HimanshuBungla/LeetCode/tree/master/0027-remove-element) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/HimanshuBungla/LeetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/HimanshuBungla/LeetCode/tree/master/0088-merge-sorted-array) |
+| [2699-count-the-number-of-fair-pairs](https://github.com/HimanshuBungla/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Sorting
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/HimanshuBungla/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/HimanshuBungla/LeetCode/tree/master/0169-majority-element) |
+| [2699-count-the-number-of-fair-pairs](https://github.com/HimanshuBungla/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Hash Table
 |  |
 | ------- |
@@ -60,4 +63,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/HimanshuBungla/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/HimanshuBungla/LeetCode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/HimanshuBungla/LeetCode/tree/master/0882-peak-index-in-a-mountain-array) |
+| [2699-count-the-number-of-fair-pairs](https://github.com/HimanshuBungla/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 <!---LeetCode Topics End-->
