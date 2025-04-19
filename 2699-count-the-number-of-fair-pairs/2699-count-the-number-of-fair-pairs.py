@@ -1,21 +1,11 @@
-class Solution:
-    def countFairPairs(self, nums: List[int], lower: int, upper: int) -> int:
+class Solution(object):
+    def countFairPairs(self, nums, lower, upper):
+        ans = 0
         nums.sort()
-        count = 0
-        n = len(nums)
-
-        for i in range(n):
-            low_val = lower - nums[i]
-            high_val = upper - nums[i]
-
-            l = i + 1
-            while l < n and nums[l] < low_val:
-                l += 1
-
-            r = l
-            while r < n and nums[r] <= high_val:
-                r += 1
-
-            count += (r - l)
-
-        return count
+        for i in range(len(nums) - 1):
+            minReq = lower - nums[i]
+            maxReq = upper - nums[i]
+            low = bisect_left(nums, minReq, i+1)
+            high = bisect_right(nums, maxReq, i+1)
+            ans += high - low
+        return ans
