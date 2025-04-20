@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/HimanshuBungla/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0169-majority-element](https://github.com/HimanshuBungla/LeetCode/tree/master/0169-majority-element) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/HimanshuBungla/LeetCode/tree/master/0745-find-smallest-letter-greater-than-target) |
+| [0797-rabbits-in-forest](https://github.com/HimanshuBungla/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/HimanshuBungla/LeetCode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/HimanshuBungla/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Two Pointers
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/HimanshuBungla/LeetCode/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/HimanshuBungla/LeetCode/tree/master/0013-roman-to-integer) |
 | [0169-majority-element](https://github.com/HimanshuBungla/LeetCode/tree/master/0169-majority-element) |
+| [0797-rabbits-in-forest](https://github.com/HimanshuBungla/LeetCode/tree/master/0797-rabbits-in-forest) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -54,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/HimanshuBungla/LeetCode/tree/master/0013-roman-to-integer) |
+| [0797-rabbits-in-forest](https://github.com/HimanshuBungla/LeetCode/tree/master/0797-rabbits-in-forest) |
 ## String
 |  |
 | ------- |
@@ -66,4 +69,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0745-find-smallest-letter-greater-than-target](https://github.com/HimanshuBungla/LeetCode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/HimanshuBungla/LeetCode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/HimanshuBungla/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
+## Greedy
+|  |
+| ------- |
+| [0797-rabbits-in-forest](https://github.com/HimanshuBungla/LeetCode/tree/master/0797-rabbits-in-forest) |
 <!---LeetCode Topics End-->
