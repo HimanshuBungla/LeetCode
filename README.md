@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/HimanshuBungla/LeetCode/tree/master/0013-roman-to-integer) |
 | [0169-majority-element](https://github.com/HimanshuBungla/LeetCode/tree/master/0169-majority-element) |
 | [0797-rabbits-in-forest](https://github.com/HimanshuBungla/LeetCode/tree/master/0797-rabbits-in-forest) |
+| [1500-count-largest-group](https://github.com/HimanshuBungla/LeetCode/tree/master/1500-count-largest-group) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -59,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0013-roman-to-integer](https://github.com/HimanshuBungla/LeetCode/tree/master/0013-roman-to-integer) |
 | [0797-rabbits-in-forest](https://github.com/HimanshuBungla/LeetCode/tree/master/0797-rabbits-in-forest) |
+| [1500-count-largest-group](https://github.com/HimanshuBungla/LeetCode/tree/master/1500-count-largest-group) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/HimanshuBungla/LeetCode/tree/master/2415-count-the-number-of-ideal-arrays) |
 ## String
 |  |
