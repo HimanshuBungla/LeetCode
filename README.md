@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/HimanshuBungla/LeetCode/tree/master/0027-remove-element) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/HimanshuBungla/LeetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/HimanshuBungla/LeetCode/tree/master/0088-merge-sorted-array) |
+| [0868-push-dominoes](https://github.com/HimanshuBungla/LeetCode/tree/master/0868-push-dominoes) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/HimanshuBungla/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Sorting
 |  |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0053-maximum-subarray](https://github.com/HimanshuBungla/LeetCode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/HimanshuBungla/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0868-push-dominoes](https://github.com/HimanshuBungla/LeetCode/tree/master/0868-push-dominoes) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/HimanshuBungla/LeetCode/tree/master/2415-count-the-number-of-ideal-arrays) |
 ## Math
 |  |
@@ -75,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0013-roman-to-integer](https://github.com/HimanshuBungla/LeetCode/tree/master/0013-roman-to-integer) |
 | [0038-count-and-say](https://github.com/HimanshuBungla/LeetCode/tree/master/0038-count-and-say) |
+| [0868-push-dominoes](https://github.com/HimanshuBungla/LeetCode/tree/master/0868-push-dominoes) |
 ## Binary Search
 |  |
 | ------- |
