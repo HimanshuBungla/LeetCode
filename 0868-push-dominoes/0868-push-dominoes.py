@@ -1,28 +1,46 @@
 class Solution:
     def pushDominoes(self, dominoes: str) -> str:
-        
-        A = ['L', *dominoes, 'R']
-        n = len(A)
-        prev = 0
+        n = len(dominoes)
+        left = [0] * n
+        right = [0] * n
 
-        for i in range(1, n):
-            cur = A[i]
-            if cur == '.':
-                continue
+        prev = '.'
+        count = 1
+        for i in range(n):
+            if dominoes[i] == 'R':
+                prev = 'R'
+                count = 1
+            elif dominoes[i] == 'L':
+                prev = 'L'
+            elif prev == 'R':
+                right[i] = count
+                count += 1
 
-            prev_val = A[prev]
-            gap = i - prev - 1
+        prev = '.'
+        count = 1
+        for i in range(n - 1, -1, -1):
+            if dominoes[i] == 'L':
+                prev = 'L'
+                count = 1
+            elif dominoes[i] == 'R':
+                prev = 'R'
+            elif prev == 'L':
+                left[i] = count
+                count += 1
 
-            if prev_val == cur:
-                if gap:
-                    A[prev + 1:i] = [cur] * gap
-            elif prev_val == 'R':
-                half = gap // 2
-                if half:
-                    A[prev + 1:prev + 1 + half] = ['R'] * half
-                    A[i - half:i] = ['L'] * half
+        result = []
+        for i in range(n):
+            if left[i] == 0 and right[i] == 0:
+                result.append(dominoes[i])
+            elif left[i] == 0:
+                result.append('R')
+            elif right[i] == 0:
+                result.append('L')
+            elif left[i] == right[i]:
+                result.append('.')
+            elif left[i] > right[i]:
+                result.append('R')
+            else:
+                result.append('L')
 
-            prev = i
-
-        
-        return ''.join(A[1:-1])
+        return ''.join(result)
