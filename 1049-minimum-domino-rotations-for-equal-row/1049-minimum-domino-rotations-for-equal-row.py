@@ -1,17 +1,21 @@
-class Solution(object):
-    def minDominoRotations(self, tops, bottoms):
-        res = self.getRotation(tops, bottoms, tops[0])
-        if bottoms[0] != tops[0]:
-            res = min(res, self.getRotation(tops, bottoms, bottoms[0]))
-        return -1 if res == float('inf') else res
+class Solution:
+    def minDominoRotations(self, tops: List[int], bottoms: List[int]) -> int:
+        result = float('inf')
+        for i in range(1,7):
+            steps = self.find(tops,bottoms,i)
+            if(steps != -1):
+                result = min(result,steps)
+        return -1 if result == float('inf') else result
+    
+    def find(self,top,bottom,i):
+        top_swap = 0
+        bottom_swap=0
+        for j in range(len(top)):
+            if(top[j]!=i and bottom[j]!=i):
+                return -1
+            elif (top[j] != i):
+                top_swap +=1
+            elif(bottom[j] != i):
+                bottom_swap +=1
+        return min(top_swap,bottom_swap)
 
-    def getRotation(self, tops, bottoms, target):
-        rotateTop = rotateBottom = 0
-        for i in range(len(tops)):
-            if tops[i] != target and bottoms[i] != target:
-                return float('inf')
-            if tops[i] != target:
-                rotateTop += 1
-            if bottoms[i] != target:
-                rotateBottom += 1
-        return min(rotateTop, rotateBottom)
