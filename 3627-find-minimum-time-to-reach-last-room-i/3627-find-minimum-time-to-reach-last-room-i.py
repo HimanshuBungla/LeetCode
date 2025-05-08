@@ -1,24 +1,27 @@
-class Solution(object):
+import heapq
+
+class Solution:
     def minTimeToReach(self, moveTime):
-        n = len(moveTime)
-        m = len(moveTime[0])
-        dp = [[float('inf')] * m for _ in range(n)]
-        minh = []
-        heapq.heappush(minh, (0, 0, 0))
-        moveTime[0][0] = 0
-        directions = [(1, 0), (0, 1), (-1, 0), (0, -1)]
-        while minh:
-            currTime, currRow, currCol = heapq.heappop(minh)
-            if currTime >= dp[currRow][currCol]:
-                continue
-            if currRow == n - 1 and currCol == m - 1:
-                return currTime
-            dp[currRow][currCol] = currTime
-            for dr, dc in directions:
-                nextRow = currRow + dr
-                nextCol = currCol + dc
-                if 0 <= nextRow < n and 0 <= nextCol < m and dp[nextRow][nextCol] == float('inf'):
-                    nextTime = max(moveTime[nextRow][nextCol], currTime) + 1
-                    heapq.heappush(minh, (nextTime, nextRow, nextCol))
+        m, n = len(moveTime), len(moveTime[0])
+        directions = [(1, 0), (-1, 0), (0, 1), (0, -1)]
+        result = [[float('inf')] * n for _ in range(m)]
+        result[0][0] = 0
+        pq = [(0, 0, 0)]
+
+        while pq:
+            curr_time, i, j = heapq.heappop(pq)
+
+            if i == m - 1 and j == n - 1:
+                return curr_time
+
+            for dx, dy in directions:
+                ni, nj = i + dx, j + dy
+                if 0 <= ni < m and 0 <= nj < n:
+                    wait = max(moveTime[ni][nj] - curr_time, 0)
+                    arr_time = curr_time + wait + 1
+
+                    if result[ni][nj] > arr_time:
+                        result[ni][nj] = arr_time
+                        heapq.heappush(pq, (arr_time, ni, nj))
+
         return -1
-        
