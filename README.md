@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/HimanshuBungla/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0868-push-dominoes](https://github.com/HimanshuBungla/LeetCode/tree/master/0868-push-dominoes) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/HimanshuBungla/LeetCode/tree/master/2415-count-the-number-of-ideal-arrays) |
+| [3637-count-number-of-balanced-permutations](https://github.com/HimanshuBungla/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 ## Math
 |  |
 | ------- |
@@ -79,12 +80,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0797-rabbits-in-forest](https://github.com/HimanshuBungla/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [1500-count-largest-group](https://github.com/HimanshuBungla/LeetCode/tree/master/1500-count-largest-group) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/HimanshuBungla/LeetCode/tree/master/2415-count-the-number-of-ideal-arrays) |
+| [3637-count-number-of-balanced-permutations](https://github.com/HimanshuBungla/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 ## String
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/HimanshuBungla/LeetCode/tree/master/0013-roman-to-integer) |
 | [0038-count-and-say](https://github.com/HimanshuBungla/LeetCode/tree/master/0038-count-and-say) |
 | [0868-push-dominoes](https://github.com/HimanshuBungla/LeetCode/tree/master/0868-push-dominoes) |
+| [3637-count-number-of-balanced-permutations](https://github.com/HimanshuBungla/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 ## Binary Search
 |  |
 | ------- |
@@ -108,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/HimanshuBungla/LeetCode/tree/master/2415-count-the-number-of-ideal-arrays) |
+| [3637-count-number-of-balanced-permutations](https://github.com/HimanshuBungla/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 ## Number Theory
 |  |
 | ------- |
