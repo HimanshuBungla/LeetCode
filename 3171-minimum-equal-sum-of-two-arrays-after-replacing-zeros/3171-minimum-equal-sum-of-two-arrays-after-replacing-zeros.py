@@ -1,12 +1,13 @@
 class Solution:
-    def minSum(self, nums1, nums2):
-        nums1_sum = sum(x if x != 0 else 1 for x in nums1)
-        nums2_sum = sum(x if x != 0 else 1 for x in nums2)
-
-        nums1_zeros = nums1.count(0)
-        nums2_zeros = nums2.count(0)
-
-        if (nums1_zeros == 0 and nums2_sum > nums1_sum) or \
-           (nums2_zeros == 0 and nums1_sum > nums2_sum):
+    def minSum(self, nums1: List[int], nums2: List[int]) -> int:
+        zeros1,zeros2=nums1.count(0),nums2.count(0)
+        s1,s2=sum(nums1),sum(nums2)
+        if (zeros1==0 and s1+zeros1<s2+zeros2) or (zeros2==0 and s2<s1+zeros1):
             return -1
-        return max(nums1_sum, nums2_sum)
+        return max(s2+zeros2,s1+zeros1)
+
+
+
+
+        
+
