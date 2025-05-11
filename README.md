@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0882-peak-index-in-a-mountain-array](https://github.com/HimanshuBungla/LeetCode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/HimanshuBungla/LeetCode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/HimanshuBungla/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [1293-three-consecutive-odds](https://github.com/HimanshuBungla/LeetCode/tree/master/1293-three-consecutive-odds) |
 | [2048-build-array-from-permutation](https://github.com/HimanshuBungla/LeetCode/tree/master/2048-build-array-from-permutation) |
 | [2249-count-the-hidden-sequences](https://github.com/HimanshuBungla/LeetCode/tree/master/2249-count-the-hidden-sequences) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/HimanshuBungla/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
