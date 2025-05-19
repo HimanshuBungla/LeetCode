@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/HimanshuBungla/LeetCode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/HimanshuBungla/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0868-push-dominoes](https://github.com/HimanshuBungla/LeetCode/tree/master/0868-push-dominoes) |
+| [2061-painting-a-grid-with-three-different-colors](https://github.com/HimanshuBungla/LeetCode/tree/master/2061-painting-a-grid-with-three-different-colors) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/HimanshuBungla/LeetCode/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/HimanshuBungla/LeetCode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/HimanshuBungla/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
