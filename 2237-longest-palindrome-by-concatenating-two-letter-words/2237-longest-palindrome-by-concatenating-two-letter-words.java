@@ -1,31 +1,30 @@
-import java.util.*;
-
 class Solution {
     public int longestPalindrome(String[] words) {
         Map<String, Integer> map = new HashMap<>();
-        int count = 0;
-        boolean hasCentralWord = false;
+        int result = 0;
 
-        for (String word : words)
-            map.put(word, map.getOrDefault(word, 0) + 1);
-
-        for (String word : map.keySet()) {
-            int freq = map.get(word);
-            if (freq == 0) continue;
-
+        for (String word : words) {
             String reversed = new StringBuilder(word).reverse().toString();
-            if (word.equals(reversed)) {
-                count += (freq / 2) * 4;
-                if (freq % 2 == 1) hasCentralWord = true;
-            } else if (map.containsKey(reversed)) {
-                int pairs = Math.min(freq, map.get(reversed));
-                count += pairs * 4;
-                map.put(reversed, 0);
+
+            if (map.getOrDefault(reversed, 0) > 0) {
+                result += 4;
+                map.put(reversed, map.get(reversed) - 1);
+            } else {
+                map.put(word, map.getOrDefault(word, 0) + 1);
             }
-            map.put(word, 0);
         }
 
-        if (hasCentralWord) count += 2;
-        return count;
+        // Check for a word with both characters same to use in the center
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
+            String word = entry.getKey();
+            int count = entry.getValue();
+
+            if (word.charAt(0) == word.charAt(1) && count > 0) {
+                result += 2;
+                break;
+            }
+        }
+
+        return result;
     }
 }
