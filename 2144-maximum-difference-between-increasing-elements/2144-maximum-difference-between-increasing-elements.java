@@ -1,16 +1,18 @@
 class Solution {
     public int maximumDifference(int[] nums) {
-        int maxdiff= 0;
-        for(int i=0;i<nums.length;i++){
-            for(int j=i+1;j<nums.length;j++){
-                int diff = nums[j] - nums[i];
+        int maxdiff = -1;
+        int minele = nums[0];
+        for(int i=1;i<nums.length;i++){
+            if(nums[i]>minele){
+                int diff = nums[i] - minele;
                 if(diff>maxdiff){
                     maxdiff=diff;
                 }
             }
-        }
-        if(maxdiff<=0){
-            return -1;
+            else{
+                minele = nums[i];
+            }
+            
         }
         return maxdiff;
     }
