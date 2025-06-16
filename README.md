@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1293-three-consecutive-odds](https://github.com/HimanshuBungla/LeetCode/tree/master/1293-three-consecutive-odds) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/HimanshuBungla/LeetCode/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [2048-build-array-from-permutation](https://github.com/HimanshuBungla/LeetCode/tree/master/2048-build-array-from-permutation) |
+| [2144-maximum-difference-between-increasing-elements](https://github.com/HimanshuBungla/LeetCode/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2215-finding-3-digit-even-numbers](https://github.com/HimanshuBungla/LeetCode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/HimanshuBungla/LeetCode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2249-count-the-hidden-sequences](https://github.com/HimanshuBungla/LeetCode/tree/master/2249-count-the-hidden-sequences) |
