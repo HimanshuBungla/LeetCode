@@ -134,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0013-roman-to-integer](https://github.com/HimanshuBungla/LeetCode/tree/master/0013-roman-to-integer) |
 | [0797-rabbits-in-forest](https://github.com/HimanshuBungla/LeetCode/tree/master/0797-rabbits-in-forest) |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/HimanshuBungla/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1500-count-largest-group](https://github.com/HimanshuBungla/LeetCode/tree/master/1500-count-largest-group) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/HimanshuBungla/LeetCode/tree/master/2202-sum-of-k-mirror-numbers) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/HimanshuBungla/LeetCode/tree/master/2415-count-the-number-of-ideal-arrays) |
@@ -320,4 +321,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/HimanshuBungla/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
+## Linked List
+|  |
+| ------- |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/HimanshuBungla/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 <!---LeetCode Topics End-->
