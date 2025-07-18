@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/HimanshuBungla/LeetCode/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/HimanshuBungla/LeetCode/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3321-type-of-triangle](https://github.com/HimanshuBungla/LeetCode/tree/master/3321-type-of-triangle) |
+| [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/HimanshuBungla/LeetCode/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/HimanshuBungla/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/HimanshuBungla/LeetCode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3639-zero-array-transformation-i](https://github.com/HimanshuBungla/LeetCode/tree/master/3639-zero-array-transformation-i) |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/HimanshuBungla/LeetCode/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/HimanshuBungla/LeetCode/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/HimanshuBungla/LeetCode/tree/master/3307-find-the-maximum-sum-of-node-values) |
+| [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/HimanshuBungla/LeetCode/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/HimanshuBungla/LeetCode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/HimanshuBungla/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/HimanshuBungla/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
