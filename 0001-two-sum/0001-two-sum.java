@@ -9,6 +9,9 @@ class Solution {
                     break;
                 }
             }
+            if(a[1]!=0){
+                break;
+            }
         }
         return a;
     }
